@@ -20,8 +20,9 @@ Route::get('/users/{username?}', function ($username) {
     return "username_utilisateur : " . $username;
 });
 
-Route::get('freegaza',function (){
-    return "'Im here !";})->name('testroute3');
+Route::get('freegaza', function () {
+    return "'Im here !";
+})->name('testroute3');
 
 #interface blade simple
 Route::get('/contact', function () {
